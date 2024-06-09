@@ -7,7 +7,8 @@ Approach:
 5. Extract the elements from the heap, which will be the top K frequent elements.
 
 Time Complexity:
-O(n log k) - where n is the number of elements in the list and k is the number of top frequent elements. Building the frequency dictionary takes O(n), and maintaining the heap takes O(log k) time for each of the n elements.
+O(n log k) - where n is the number of elements in the list and k is the number of top frequent elements. 
+Building the frequency dictionary takes O(n), and maintaining the heap takes O(log k) time for each of the n elements.
 
 Space Complexity:
 O(n) - In the worst case, we store all n elements in the frequency dictionary.
